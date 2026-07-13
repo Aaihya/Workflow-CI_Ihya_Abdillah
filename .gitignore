@@ -1,0 +1,22 @@
+# Python cached files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# MLflow tracking local outputs
+mlruns/
+mlflow.db
+
+# Local database or temporary files
+*.tmp
+*.log

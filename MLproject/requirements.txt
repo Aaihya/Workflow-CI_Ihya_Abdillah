@@ -1,0 +1,24 @@
+## Core Dependencies
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.9.3
+seaborn==0.13.2
+
+## MLflow & Experiment Tracking
+mlflow==2.19.0
+dagshub==0.3.37
+
+## Web Serving
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.10.3
+
+## Monitoring
+prometheus-client==0.21.1
+psutil==6.1.1
+
+## Utilities
+joblib==1.4.2
+requests==2.32.3
+scipy==1.14.1
