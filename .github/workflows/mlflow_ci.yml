@@ -49,9 +49,9 @@ jobs:
           sleep 5
           curl -s http://127.0.0.1:5000/health || echo "MLflow server health check"
 
-      - name: Run MLflow Project (no-conda)
+      - name: Run MLflow Project (local env)
         run: |
-          mlflow run MLproject --no-conda --entry-point main
+          mlflow run MLproject --env-manager local --entry-point main
 
       - name: Validate MLflow artifacts
         run: |
